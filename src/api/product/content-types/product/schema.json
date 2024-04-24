@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "category": {
+      "type": "string"
+    },
+    "stock": {
+      "type": "json"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}
