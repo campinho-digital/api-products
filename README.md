@@ -1,3 +1,60 @@
+
+# Consumindo a API de Produtos
+
+Para consumir a API de produtos, é necessário fazer uma solicitação GET para o endpoint `/api/products`. Além disso, você precisa incluir o cabeçalho `Authorization` com o valor `bearer <YOUR_API_TOKEN>`.
+
+## Requisitos
+
+- Você precisará de um token de API válido para acessar os recursos protegidos da API.
+- Certifique-se de incluir o cabeçalho `Authorization` em todas as solicitações, conforme especificado.
+
+## Exemplo de Solicitação
+
+### Solicitação GET para /api/products
+
+```http
+GET /api/products HTTP/1.1
+Host: your-api.com
+Authorization: bearer <YOUR_API_TOKEN>
+```
+
+Exemplo de Resposta
+A resposta da API será um JSON contendo uma lista de produtos. Cada produto será representado como um objeto com os seguintes atributos:
+
+id: O identificador único do produto.
+name: O nome do produto.
+description: A descrição do produto.
+price: O preço do produto.
+category: A categoria do produto.
+stock: O estoque disponível para o produto, representado como um objeto com tamanhos (se aplicável).
+image: O URL da imagem do produto.
+Aqui está um exemplo de JSON de resposta:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
